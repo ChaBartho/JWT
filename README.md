@@ -22,7 +22,7 @@
 #        format_sql: true
 #  application:
 #    jwt:
-#      expiresAt: 846000
-#      headerPrefix: "Bearer "
-#      secret: "pass"
-#      headerKey: "Authorization"
+      expiresAt: 846000
+      headerPrefix: "Bearer "
+      secret: "pass"
+      headerKey: "Authorization"
