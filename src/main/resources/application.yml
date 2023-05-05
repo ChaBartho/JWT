@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:8080/cookbook
+    username: postgres
+    password: -dEba9-5Gm-
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+      format_sql: true
+application:
+  jwt:
+    expiresAt: 846000
+    headerPrefix: "Bearer "
+    secret: "pass"
+    headerKey: "Authorization"
